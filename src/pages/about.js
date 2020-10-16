@@ -18,9 +18,11 @@ export default function About() {
       </p>
       <h2>About me</h2>
       <p>
-        I’m Matias, a 22 year old Software Developer based in Argentina, if you
-        want to know more about me or my other projects follow this link to my
-        portfolio website.
+        I’m Matias, a 22 year old Software Developer based in Argentina. If you
+        want to know more about me or my other projects follow{" "}
+        <a target="_blank" href="https://personal-portfolio-chi.vercel.app/">
+          this link to my portfolio website.
+        </a>
       </p>
       <Link to="/">Home</Link>
     </Layout>

@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 export default function Home() {
@@ -21,7 +20,7 @@ export default function Home() {
   }
 
   const setearBoardRotation = () => {
-    setBoardRotation(boardRotations[random(0, 3)])
+    setBoardRotation(boardRotations[random(0, 2)])
   }
 
   const setearFlip = () => {
@@ -36,13 +35,13 @@ export default function Home() {
   }
 
   const positions = ["Nollie", "Switch", "Regular", "Fakie"]
-  const bodyRotations = ["Frontside", "Backside", ""]
-  const boardRotations = ["180", "360", ""]
-  const flips = ["Kickflip", "Heelflip", "Shove it", "Ollie", ""]
+  const bodyRotations = ["Frontside", "Backside", "x"]
+  const boardRotations = ["180", "360", "x"]
+  const flips = ["Kickflip", "Heelflip", "Shove it", "Ollie", "x"]
 
   return (
     <Layout>
-      <h1>WELCOME TO SKATE DICE</h1>
+      <h1>TAP ON ROLL TO GET A TRICK</h1>
 
       <br></br>
 
@@ -50,8 +49,7 @@ export default function Home() {
       <p>{bodyRotation}</p>
       <p>{boardRotation}</p>
       <p>{flip}</p>
-
-      <br></br>
+      <p>( x means you can do a variation of the trick )</p>
 
       <button
         style={{
