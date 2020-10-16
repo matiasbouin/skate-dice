@@ -12,9 +12,9 @@ export default function About() {
         1v1 skate, betting on landing tricks or just practicing random
         maneuvers). So in this version, there are no dices, but the principle
         remains the same, and I personally added some key features that where
-        laking on the original game, such as adding the bigspin variation,
-        making an all time accesible version of it via web and making it free to
-        play. Just click on the GIVE ME A TRICK button and enjoy!
+        laking on the original game, such as making an all time accesible
+        version of it via web and making it free to play. Just click on the GIVE
+        ME A TRICK button and enjoy!
       </p>
       <h2>About me</h2>
       <p>
