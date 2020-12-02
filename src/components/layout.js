@@ -35,7 +35,7 @@ export default function Layout({ children }) {
           marginTop: `1.5rem`,
         }}
       >
-        This is a fast, responsive and easy-to-use web based Skate Dice game
+        This is a fast and responsive web based Skate Dice game
       </footer>
     </div>
   )

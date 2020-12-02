@@ -18,7 +18,7 @@ export default function About() {
       </p>
       <h2>About me</h2>
       <p>
-        I’m Matias, a 22 year old Software Developer based in Argentina. If you
+        I’m Matias, a 23 year old Software Developer based in Argentina. If you
         want to know more about me or my other projects follow{" "}
         <a target="_blank" href="https://personal-portfolio-chi.vercel.app/">
           this link to my portfolio website.
